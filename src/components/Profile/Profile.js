@@ -62,7 +62,6 @@ const Profile = (props) => {
 
   const onSubmit = (data) => {
     updateUser(data);
-    alert(JSON.stringify(data));
   };
 
   //Check if user_data is ready
@@ -130,7 +129,8 @@ const Profile = (props) => {
                 placeholder="Email..."
                 {...register("email", {
                   required: "This field is required.",
-                  pattern: /^[a-zA-Z0-9]+@[a-zA-Z0-9]+\.[A-Za-z]+$/,
+                  pattern:
+                    /^[a-zA-Z0-9.!#$%&’*+=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/,
                 })}
               />
             </div>
