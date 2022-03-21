@@ -19,3 +19,8 @@ You may also see any lint errors in the console.
 ### `npm i react-slick --save`
 
 ### `npm i slick-carousel --save`
+
+
+### QA Testing
+Manual testing for QA:
+https://docs.google.com/spreadsheets/d/1bEtmZ23iDm4bBjaRa57iBNCL3hj2WDNlp1Qj_MTQncU/edit?usp=sharing
